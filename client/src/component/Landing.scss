@@ -5,6 +5,7 @@ $primary-font-color: white;
 $secondary-font-color: #04a9f4;
 $primary-nav-color: #2c3e50;
 $primary-bg-color:#18bc9c;
+$secondary-bg-color:white;
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -34,6 +35,13 @@ body {
   width: 100vw;
 }
 .navbar {
-  color: $primary-font-color;
   background-color: $primary-nav-color;
+}
+.about {
+  color: $secondary-font-color;
+  background-color: $secondary-bg-color;
+}
+.contact {
+  color: $secondary-font-color;
+  background-color: $secondary-bg-color;
 }
