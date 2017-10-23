@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Example from '../component/Example.jsx'
 
 class ExampleContainer extends Component {
   constructor(props) {

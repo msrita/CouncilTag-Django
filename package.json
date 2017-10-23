@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "live-server client/public",
     "build": "webpack",
-    "dev-server": "webpack-dev-server"
+    "dev": "webpack-dev-server"
   },
   "dependencies": {
     "babel-cli": "^6.26.0",
