@@ -22,7 +22,6 @@ body {
   color: $primary-font-color;
 }
 body {
-  min-height: 75rem;
   padding-top: 5rem;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
@@ -41,7 +40,7 @@ body {
   color: $secondary-font-color;
   background-color: $secondary-bg-color;
 }
-.contact {
-  color: $secondary-font-color;
-  background-color: $secondary-bg-color;
+
+footer {
+  background-color: $primary-nav-color
 }

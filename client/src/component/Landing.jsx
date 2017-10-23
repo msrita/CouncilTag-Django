@@ -71,17 +71,43 @@ const Landing = (props) =>{
           </div>
         </div>
       </section>
-      <section className="contact" id="contact">
-        <div className="container">
-          <h2 className="text-center">Contact</h2>
-          <hr className="star-light" />
-          <div className="row">
-            <div className="col-lg-4 ml-auto">
-              <p>Engage helps you voice your opinions at local goverment meetings</p>
+      <footer className="text-center">
+        <div className="footer-above">
+          <div className="container">
+            <div className="row">
+              <div className="footer-col col-md-4">
+                <h3>Contact</h3>
+                <ul className="list-inline">
+                  <li className="list-inline-item">
+                    <a className="btn-social btn-outline" href="#">
+                      <i className="fa fa-fw fa-facebook"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a className="btn-social btn-outline" href="#">
+                      <i className="fa fa-fw fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li className="list-inline-item">
+                    <a className="btn-social btn-outline" href="#">
+                      <i className="fa fa-fw fa-dribbble"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+        <div className="footer-below">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                Copyright &copy; Your Website 2017
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
